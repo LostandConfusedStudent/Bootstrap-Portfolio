@@ -1,0 +1,39 @@
+/**
+ * Media Query Demo (note the commented rules)
+ **/
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+  The background color will be #ccc
+  at browser widths above 768px
+*/
+body {
+  background-color: #ccc;
+}
+
+.container {
+  width: 650px;
+  margin: 40px auto;
+}
+
+#content {
+  float: left;
+  background: #fff;
+}
+
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+
+  /* The wrapper's width will be 600px */
+  .container {
+    width: 500px;
+  }
+}
+
