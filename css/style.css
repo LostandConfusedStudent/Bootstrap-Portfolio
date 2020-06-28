@@ -6,6 +6,7 @@
 
 body {
   background-color: #ccc;
+  padding-top:20px;
 }
 
 /* Box model and positioning */
@@ -19,6 +20,15 @@ body {
     width: 200px;
     margin: 40px auto;
   }
+
+.container_three {
+  width: 200px;
+  margin: 40px auto;
+}
+
+.background {
+  background-color: cadetblue;
+}
     
 
 h2 {
